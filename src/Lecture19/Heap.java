@@ -2,7 +2,7 @@ package Lecture19;
 
 import java.util.ArrayList;
 
-public class Heap<T extends Comparable<T>> {
+public class Heap<T> extends Comparable<T>> {
 	private ArrayList<T> data;
 	private boolean isMin;
 
